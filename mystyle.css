@@ -1,0 +1,62 @@
+body 
+{
+    margin: 0;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+header 
+{
+    background-color: #00ffff;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a 
+{
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+
+section 
+{
+    background-color: #111;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #00ffff;
+}
+
+h2 
+{
+    color: #00ffff;
+}
+
+ul 
+{
+    padding-left: 20px;
+}
+
+.box 
+{
+    background-color: #1a1a1a;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #00ffff;
+}
+
+a 
+{
+    color: #00ffff;
+}
+
+input, textarea 
+{
+    width: 200px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid #00ffff;
+}
