@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Portfolio</title>
+    <title>Aadi Dahiya | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
@@ -16,28 +17,43 @@
 </header>
 <section id="about">
     <h2>About Me</h2>
-    <p>I am a student interested in AI, coding and building projects.</p>
+    <img src="../Assets/profile.png" alt="Aadi Dahiya">
+    <p>
+        I am a student focused on AI, competitive programming, and building impactful projects.
+    </p>
 </section>
 <section id="skills">
     <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>CPP</li>
-        <li>Basic AI/ML</li>
-    </ul>
+    <div class="skills-container">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>C++</span>
+        <span>AI/ML (Basics)</span>
+    </div>
 </section>
 <section id="projects">
     <h2>Projects</h2>
-    <div class="box">
-        <h3>Arduino Projects</h3>
-        <p>Projects built using Arduino platform.</p>
-        <a href="https://arduino.com/projecthub/valnaut" target="_blank">View Project</a>
-    </div>
-    <div class="box">
-        <h3>Profile</h3>
-        <p>My LinkedIn profile.</p>
-        <a href="https://www.linkedin.com/in/aadi-dahiya-285b92292/" target="_blank">View Profile</a>
+
+    <div class="projects-container">
+
+        <div class="box">
+            <img src="../Assets/arduino.png" alt="Arduino Project">
+            <h3>Arduino Projects</h3>
+            <p>Built hardware projects using Arduino platform.</p>
+            <a href="https://arduino.cc/projecthub/valnaut" target="_blank">
+                View Project
+            </a>
+        </div>
+
+        <div class="box">
+            <img src="../Assets/linkedin.png" alt="LinkedIn Profile">
+            <h3>LinkedIn</h3>
+            <p>My professional profile.</p>
+            <a href="https://www.linkedin.com/in/aadi-dahiya-285b92292/" target="_blank">
+                View Profile
+            </a>
+        </div>
+
     </div>
 </section>
 <section id="contact">
@@ -45,10 +61,10 @@
     <p>Email: aadidahiya13@gmail.com</p>
     <p>Phone: 6309071398</p>
     <form>
-        <input type="text" placeholder="Name"><br><br>
-        <input type="email" placeholder="Email"><br><br>
-        <textarea placeholder="Message"></textarea><br><br>
-        <input type="submit" value="Send">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
     </form>
 </section>
 </body>
