@@ -1,62 +1,69 @@
-body 
-{
+body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background-color: black;
     color: white;
 }
-
-header 
-{
-    background-color: #00ffff;
+header {
+    background-color: #00ffff; 
     color: black;
     text-align: center;
     padding: 10px;
 }
-
-nav a 
-{
+nav a {
     color: black;
     margin: 10px;
     text-decoration: none;
 }
-
-section 
-{
+section {
     background-color: #111;
     margin: 20px;
     padding: 20px;
     border: 1px solid #00ffff;
 }
-
-h2 
-{
+h2 {
     color: #00ffff;
 }
-
-ul 
-{
+ul {
     padding-left: 20px;
 }
-
-.box 
-{
-    background-color: #1a1a1a;
+.box {
+    background-color: #1a1a1a; 
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #00ffff;
 }
-
-a 
-{
+a {
     color: #00ffff;
 }
-
-input, textarea 
-{
-    width: 200px;
-    padding: 5px;
+input, textarea {
+    width: 100%;
+    padding: 8px;
     background-color: black;
     color: white;
     border: 1px solid #00ffff;
+}
+
+button {
+    background-color: #00ffff;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+#about img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
 }
